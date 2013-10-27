@@ -1,0 +1,362 @@
+/**
+ * $Source: c:/buffer2cvs/CirculationVCs/WsViewControl/ProjectViewControl/public_html/newcirc.css,v $
+ * $Author: leo.ching $
+ * $Date: 2009/06/08 01:35:42 $
+ * $Revision: 1.2 $
+ */
+body {
+	font-family: "Verdana";
+	font-size: 12px;
+	margin-top: 0; 
+	margin-left: 0;
+	margin-right: 0;
+}
+table {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+}
+.fieldname {
+	background-color: #B8FDB5;
+	text-align: left;
+	font-weight: normal;
+	font-size: 10pt;
+	height: 25px;
+}
+.fieldnameError {
+	background-color: #ABCDEF;
+	text-align: left;
+	font-weight: bold;
+	font-size: 10pt;
+	height: 25px;
+}
+.fieldnameCompulsory {
+	background-color: lightgreen ;
+	text-align: left;
+	font-weight: normal;
+	font-size: 10pt;
+	height: 25px;
+}
+.fieldnameSmall {
+	background-color: #B8FDB5;
+	text-align: left;
+	font-weight: normal;
+	font-size: 10pt;
+
+}
+select {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+}
+input {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+}
+.border {
+	border: 1px solid #000000;
+}
+h1 { 
+	font-size: 22px; 
+	font-family: "Century Gothic"; 
+	font-weight: bold; 
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.inputError {
+	font-weight: bold;
+	color: red;
+	font-family: "Arial";   
+	font-size: 12pt;  
+  text-align: center;
+}
+.roundborder {
+	border: thin inset;
+}
+.buttonbar {
+	background-color: #009900;
+}
+.menubar {
+	background-color: #C21414;
+	font-family: "Lucida Sans Unicode";
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.screentitle {
+	font-family: "Century Gothic";
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.screentitle2 {
+	font-family: "Century Gothic";
+	font-size: 22px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #999999;
+}
+
+.navbar {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-weight: bold;
+	font-variant: small-caps;
+
+}
+a.quickitem {
+	color: #FFFFFF;
+}
+a.quickitem:active     { 
+	color: #FFFFFF; 
+	text-decoration: underline
+}
+a.quickitem:visited    { 
+	color: #FFFFFF; 
+	text-decoration: underline
+}
+a.quickitem:hover      { 
+	color: #FFFFFF; 
+	text-decoration: underline
+}
+.columnhead {
+	background-color: #CCCCCC;
+	font-size: 12px;
+
+}
+.columnheadsmall {
+	background-color: #CCCCCC;
+	font-size: 16px;
+}
+.reporttitle {
+	font-family: "Arial Black";
+	font-size: 24px;
+	background-color: #CCCCCC;
+}
+.a4size {
+	width: 720px;
+}
+.reportheader {
+	border: thin solid #000000;
+	font-weight: bold;
+
+}
+button {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+}
+.thin {
+	font-size: 9px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+}
+.thin2 {
+	font-size: 11px;
+	font-family: "Arial", "Helvetica", "sans-serif";
+
+}
+textarea {
+	font-family: "Century Gothic";
+	font-size: 10pt;
+}
+.calendar    { 
+	font-family: Century Gothic; 
+	font-size: 12px; 
+	border-bottom:1px solid #000000; 
+	border-top:1px solid #000000;
+	border-left:1px solid #000000; 
+	border-right:1px solid #000000;
+}
+.calendarHeader { 
+	font-size: 12px; 
+	background-color: #000080; 
+	color: #FFFFFF; 
+	font-family: Century Gothic; 
+	font-weight: bold 
+}
+.calendarDay    { 
+	font-family: Century Gothic; 
+	font-size: 9px; 
+	color: #AAAAAA; 
+}
+.readonly {
+	background-color: #CCCCCC;
+}
+a            { 
+	color: #006699; 
+	text-decoration: underline
+}
+a:active     { 
+	color: #006699; 
+	text-decoration: underline
+}
+a:visited    { 
+	color: #006699; 
+	text-decoration: underline
+}
+a:hover      { 
+	color: #000080; 
+	text-decoration: none
+}
+legend       { 
+	font-family: Verdana; 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #000000 
+}
+fieldset     { 
+	margin-left: 10;
+	margin-top: 10;
+	margin-right: 10;
+
+}
+
+.tdFrame     { 
+	font-size: 10px; 
+	font-family: Verdana; 
+	border-bottom: none; 
+	background-color: #FFFFFF
+}
+.msgSuccess  { 
+	font-size: 14px; 
+	font-family: Verdana; 
+	color: #0000FF 
+}
+.msgAlert    { 
+	font-size: 14px; 
+	font-family: Verdana; 
+	color: #FF0000 
+}
+.mTable      { 
+	border-bottom:1px solid #000000; 
+	border-top:1px solid #000000;
+	border-left:1px solid #000000; 
+	border-right:1px solid #000000;
+	margin:1
+}
+.invoiceDetail { 
+	font-size: 10px; 
+	font-family: Verdana; 
+}
+             
+.invoiceRow { 
+	font-size: 10px; 
+	font-family: Verdana; 
+	border-bottom:1px solid #000000
+}
+
+.nonpub { 
+	background-color: #999999;
+}
+.clear { 
+	background-color: #ffffff;
+}
+.school {
+	background-color: #FFFF99;
+}
+.hrp { 
+	background-color: #CCFFCC;
+}
+.start { 
+	background-color: #808080;
+}
+.hrpbefore { 
+	background-color: #CCFFCC;
+}
+.schoolbefore { 
+	background-color: #FFFF99;
+}
+.nonschedule {
+	background-color: #999999;
+}
+.deducted {
+	background-color: #A020F0;
+}
+.schcopychanged {
+	background-color: #00FFDF;
+}
+.schcopychangeadded {
+	background-color: #00DFFF;
+}
+.schcopyextend {
+	background-color: #00FF00;
+}
+.deducted_font {
+	font-family: Century Gothic; 
+	font-size: 12px; 
+	color: #330000; 
+}  
+.calendarDayFont    { 
+	font-family: Century Gothic; 
+	font-size: 12px; 
+	color: #330000; 
+}
+.schoolbefore_font {
+	font-family: Century Gothic; 
+	font-size: 12px; 
+	color: #FF0000; 
+}
+.hrpbefore_font {
+	font-family: Century Gothic; 
+	font-size: 12px; 
+	color: #FF0000; 
+}
+.mixdelivery {
+	background-color:  #87CEFF;
+}
+.agentType{
+	font-family: Century Gothic; 
+	font-size: 12px; 
+}
+.lateOrderChanged {
+	font-weight: bold;
+	font-size: 10pt;
+  font-style: italic;
+  color: red;
+}  
+.inuse {
+	background-color: #CCCCCC;
+}
+
+.pullDownTextRed {
+  color:#FF0000
+}
+
+FIELDSET .style1{
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-TOP: 2px;
+}
+
+fieldset LEGEND .style1{
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-TOP: 2px;
+}
+
+.totalamt{
+	border-bottom: 3px double black;
+	line-height: 1.7em;
+}
+
+.calendarContainer{
+	display:none; position:absolute; z-index:1;
+}
+
+.calendarShowBtn{
+	background-image:url("/CircDev/images/calendar.gif");
+}
+
+.mouseOver{
+  background-color = "#f2dcdb";
+}
+.mouseOut{
+  background-color = "";
+}
+
+.p_errorMsg{
+	color:red;
+}
+.p_resultMsg{}
